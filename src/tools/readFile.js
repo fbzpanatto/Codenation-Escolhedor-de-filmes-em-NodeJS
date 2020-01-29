@@ -2,7 +2,7 @@ const fs = require('fs')
 
 const readMovies = () => {
 
-  const filePath = '/home/fbzpanatto/codenation/nodejs-5/imdb-movies.json'
+  const filePath = 'imdb-movies.json'
 
   return new Promise(function(resolve, reject){
     try{

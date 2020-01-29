@@ -5,7 +5,8 @@
   "main": "src/index.js",
   "scripts": {
     "test": "jest test/index.test.js --reporters=default",
-    "test:submit": "jest test/submit.test.js"
+    "test:submit": "jest test/submit.test.js",
+    "start": "node src/index.js"
   },
   "jest": {
     "testEnvironment": "node",
