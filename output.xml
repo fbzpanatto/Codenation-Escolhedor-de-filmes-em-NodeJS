@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="2" failures="2" time="1.651">
+  <testsuite name="Random Movies API Endpoints..." errors="0" failures="2" skipped="0" timestamp="2020-01-29T15:16:55" time="0.961" tests="2">
+    <testcase classname="Random Movies API Endpoints... /v1/movie" name="Random Movies API Endpoints... /v1/movie" time="0.09">
+      <failure>Error: expect(received).toHaveProperty(path)
+
+Expected path: &quot;director&quot;
+Received path: []
+
+Received value: {}
+    at Object.test (/home/fbzpanatto/codenation/nodejs-5/test/submit.test.js:12:22)
+    at process._tickCallback (internal/process/next_tick.js:68:7)</failure>
+    </testcase>
+    <testcase classname="Random Movies API Endpoints... /v1/movie/:director" name="Random Movies API Endpoints... /v1/movie/:director" time="0.024">
+      <failure>Error: expect(received).toHaveProperty(path)
+
+Expected path: &quot;director&quot;
+Received path: []
+
+Received value: {}
+    at Object.test (/home/fbzpanatto/codenation/nodejs-5/test/submit.test.js:24:22)
+    at process._tickCallback (internal/process/next_tick.js:68:7)</failure>
+    </testcase>
+  </testsuite>
+</testsuites>
