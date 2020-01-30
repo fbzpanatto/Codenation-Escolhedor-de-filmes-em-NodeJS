@@ -1,23 +1,23 @@
 const fs = require('fs')
 
-const readMovies = () => {
-
-  const filePath = 'imdb-movies.json'
-
-  return new Promise(function(resolve, reject){
-    try{
-      fs.readFile(filePath, 'utf-8', (err, data) => {
-        if(err) {
-          reject(err)
-        }
-        resolve(JSON.parse(data))
-      })
-    } catch (err) {
-      reject(err)
-    }
+const getFile = async () => {
+  return new Promise((resolve, reject) => {
+    fs.readFile('imdb-movies.json', 'utf-8', (err, data) => {
+      if (err) reject(err)
+      resolve(data)
+    })
   })
 }
 
+const parseFile = async () => {
+  try{
+    const data = await getFile()
+    return JSON.parse(data)
+  } catch (error) {
+    throw error
+  }
+}
+
 module.exports = {
-  readMovies
+  parseFile
 }
