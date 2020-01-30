@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="jest tests" tests="2" failures="0" time="2.284">
-  <testsuite name="Random Movies API Endpoints..." errors="0" failures="0" skipped="0" timestamp="2020-01-29T17:09:22" time="1.299" tests="2">
-    <testcase classname="Random Movies API Endpoints... /v1/movie" name="Random Movies API Endpoints... /v1/movie" time="0.091">
+<testsuites name="jest tests" tests="2" failures="0" time="1.704">
+  <testsuite name="Random Movies API Endpoints..." errors="0" failures="0" skipped="0" timestamp="2020-01-30T15:30:54" time="1" tests="2">
+    <testcase classname="Random Movies API Endpoints... /v1/movie" name="Random Movies API Endpoints... /v1/movie" time="0.086">
     </testcase>
-    <testcase classname="Random Movies API Endpoints... /v1/movie/:director" name="Random Movies API Endpoints... /v1/movie/:director" time="0.023">
+    <testcase classname="Random Movies API Endpoints... /v1/movie/:director" name="Random Movies API Endpoints... /v1/movie/:director" time="0.024">
     </testcase>
   </testsuite>
 </testsuites>
